@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #d3d3d3;
+  background: #fff;
 }
 
 html::-webkit-scrollbar-thumb {

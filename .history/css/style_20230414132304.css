@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #d3d3d3;
+  background: #fff;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -1128,7 +1128,7 @@ section {
 .credit {
   text-align: center;
   font-size: 2rem;
-  color: #d3d3d3;
+  color: #fff;
   background: #01257d;
 }
 
