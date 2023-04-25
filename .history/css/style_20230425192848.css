@@ -94,7 +94,7 @@ section {
 
 .title a {
   font-size: 1.5rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .title a:hover {
@@ -177,7 +177,7 @@ section {
 }
 
 .header .search-form label:hover {
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .header .icons div {
@@ -188,7 +188,7 @@ section {
 }
 
 .header .icons div:hover {
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 #search-btn {
@@ -225,7 +225,7 @@ section {
 }
 
 #closer:hover {
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .navbar {
@@ -266,7 +266,7 @@ section {
 }
 
 .navbar a:hover {
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .shopping-cart {
@@ -321,7 +321,7 @@ section {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 2rem;
-  color: #b1624eff;
+  color: #00ffff;
   cursor: pointer;
 }
 
@@ -341,7 +341,7 @@ section {
 
 .shopping-cart .box .content span {
   font-size: 1.5rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .shopping-cart .box .content span.multipy {
@@ -352,7 +352,7 @@ section {
   text-align: center;
   font-size: 2rem;
   padding: 1rem 0;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .shopping-cart .total span {
@@ -427,7 +427,7 @@ section {
   padding: 1rem 0;
   cursor: pointer;
   font-size: 1.5rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .login-form form .btn {
@@ -439,7 +439,7 @@ section {
 .login-form form p {
   padding-top: 1rem;
   font-size: 1.4rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .login-form form p a {
@@ -515,7 +515,7 @@ section {
 
 .home .slides-container .slide .content span {
   font-size: 2.5rem;
-  color: #b1624eff;
+  color: #b1624;
 }
 
 .home .slides-container .slide .content h3 {
@@ -526,7 +526,7 @@ section {
 
 .home .slides-container .slide .content p {
   font-size: 1.5rem;
-  color: #b1624eff;
+  color: #00ffff;
   padding: .5rem 0;
   line-height: 2;
 }
@@ -612,7 +612,7 @@ section {
 
 .banner-container .banner .content span {
   font-size: 1.7rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .banner-container .banner .content h3 {
@@ -741,7 +741,7 @@ section {
 
 .products .box-container .box .content .price {
   font-size: 1.7rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .products .box-container .box .content h3 {
@@ -759,7 +759,7 @@ section {
 }
 
 .products .box-container .box .content .stars span {
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .about {
@@ -792,7 +792,7 @@ section {
 
 .about .content span {
   font-size: 2rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .about .content h3 {
@@ -803,7 +803,7 @@ section {
 
 .about .content p {
   font-size: 1.4rem;
-  color: #b1624eff;
+  color: #00ffff;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -834,7 +834,7 @@ section {
 
 .services .box-container .box p {
   font-size: 1.4rem;
-  color: #b1624eff;
+  color: #00ffff;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -937,7 +937,7 @@ section {
 
 .team .box-container .box .user span {
   font-size: 1.5rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .blog .box-container {
@@ -984,7 +984,7 @@ section {
 
 .blog .box-container .box .content p {
   font-size: 1.4rem;
-  color: #b1624eff;
+  color: #00ffff;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -1006,7 +1006,7 @@ section {
 
 .blog .box-container .box .content .icons a {
   font-size: 1.4rem;
-  color: #b1624eff;
+  color: #00ffff;
 }
 
 .blog .box-container .box .content .icons a:hover {
@@ -1044,7 +1044,7 @@ section {
 .contact form span {
   display: block;
   padding-bottom: 1rem;
-  color: #b1624eff;
+  color: #00ffff;
   font-size: 1.6rem;
 }
 
@@ -1091,13 +1091,13 @@ section {
 
 .footer .box-container .box p {
   font-size: 1.6rem;
-  color: #b1624eff;
+  color: #00ffff;
   padding-bottom: 1rem;
 }
 
 .footer .box-container .box a {
   font-size: 1.4rem;
-  color: #b1624eff;
+  color: #00ffff;
   padding: 1rem 0;
   display: block;
 }
