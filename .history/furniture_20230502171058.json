@@ -1,0 +1,51 @@
+[
+    {
+        "name" : "Lamp",
+        "category" : "lights",
+        "price" : "8.25",
+        "imgSrc" : "image/lamp.jpg"
+    },
+    {
+        "name" : "Arm Chair",
+        "category" : "Chair",
+        "price" : "102.00",
+        "imgSrc" : "image/arm chair.jpg"
+    },
+    {
+        "name" : "Lazy Chair",
+        "category" : "Chair",
+        "price" : "15.00",
+        "imgSrc" : "image/chair-4.jpg"
+    },
+    {
+        "name" : "Hanging Lamps",
+        "category" : "Lights",
+        "price" : "23.75",
+        "imgSrc" : "image/ceiling lights.jpg"
+    },
+    {
+        "name" : "White Drawer",
+        "category" : "Drawer",
+        "price" : "50.00",
+        "imgSrc" : "images/dressing table.jpg"
+    },
+    {
+        "name" : "Crazy Couch",
+        "category" : "Couch",
+        "price" : "200.50",
+        "imgSrc" : "images/love couch.jpg"
+    },
+    {
+        "name" : "Ottoman",
+        "category" : "Ottoman",
+        "price" : "5.50",
+        "imgSrc" : "image/ottoman.jpg"
+    },
+    {
+        "name" : "Single Couch",
+        "category" : "Couch",
+        "price" : "25.00",
+        "imgSrc" : ":image/singlecouch.jpg"
+    }
+    
+]
