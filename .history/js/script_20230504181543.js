@@ -5,14 +5,10 @@ const productList = document.getElementById('box-container');
 const cartList = document.querySelector('.cart-list');
 const cartTotalValue = document.getElementById('cart-total-value');
 const cartCountInfo = document.getElementById('cart-count-info');
-let closer = document.querySelector('#closer');
-let navbar = document.querySelector('.navbar');
-let cart = document.querySelector('.shopping-cart');
-let loginForm = document.querySelector('.login-form');
-let slides = document.querySelectorAll('.home .slides-container .slide');
-let index = 0;
 let cartItemID = 1;
 
+
+let closer = document.querySelector('#closer');
 // function for cart/nav bar/login form closer
 closer.onclick = () =>{
     closer.style.display = 'none';
@@ -21,18 +17,21 @@ closer.onclick = () =>{
     loginForm.classList.remove('active');
 }
 
+let navbar = document.querySelector('.navbar');
 //function for nav bar
 document.querySelector('#menu-btn').onclick = () =>{
     closer.style.display = 'block';
     navbar.classList.toggle('active');
 }
 
+let cart = document.querySelector('.shopping-cart');
 // function for cart
 document.querySelector('#cart-btn').onclick = () =>{
     closer.style.display = 'block';
     cart.classList.toggle('active');
 }
 
+let loginForm = document.querySelector('.login-form');
 //function for login form
 document.querySelector('#login-btn').onclick = () =>{
     closer.style.display = 'block';
@@ -49,6 +48,8 @@ window.onscroll = () =>{
     searchForm.classList.remove('active');
 }
 
+let slides = document.querySelectorAll('.home .slides-container .slide');
+let index = 0;
 //function for home slider
 function next(){
     slides[index].classList.remove('active');
@@ -62,6 +63,8 @@ function prev(){
     slides[index].classList.add('active');
 }
 
+
+
 eventListeners();
 
 // all event listeners
@@ -70,12 +73,21 @@ function eventListeners(){
         loadJSON();
         loadCart();
     });
-   
- // add to cart
-productList.addEventListener('click', purchaseProduct);
+    // toggle navbar when toggle button is clicked
+   // document.querySelector('.navbar-toggler').addEventListener('click', () => {
+     //   document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
+   // });
 
-// delete from cart
-cartList.addEventListener('click', deleteProduct);
+    // show/hide cart container
+   // document.getElementById('cart-btn').addEventListener('click', () => {
+    //    cartContainer.classList.toggle('show-cart-container');
+   // });
+
+    // add to cart
+    productList.addEventListener('click', purchaseProduct);
+
+    // delete from cart
+    cartList.addEventListener('click', deleteProduct);
 }
 
 // update cart info
@@ -113,6 +125,7 @@ function loadJSON(){
     })
    
 }
+
 
 // purchase product
 function purchaseProduct(e){

@@ -70,12 +70,21 @@ function eventListeners(){
         loadJSON();
         loadCart();
     });
-   
- // add to cart
-productList.addEventListener('click', purchaseProduct);
+    // toggle navbar when toggle button is clicked
+   // document.querySelector('.navbar-toggler').addEventListener('click', () => {
+     //   document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
+   // });
 
-// delete from cart
-cartList.addEventListener('click', deleteProduct);
+    // show/hide cart container
+   // document.getElementById('cart-btn').addEventListener('click', () => {
+    //    cartContainer.classList.toggle('show-cart-container');
+   // });
+
+    // add to cart
+    productList.addEventListener('click', purchaseProduct);
+
+    // delete from cart
+    cartList.addEventListener('click', deleteProduct);
 }
 
 // update cart info
@@ -113,6 +122,7 @@ function loadJSON(){
     })
    
 }
+
 
 // purchase product
 function purchaseProduct(e){

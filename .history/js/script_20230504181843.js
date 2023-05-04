@@ -114,6 +114,7 @@ function loadJSON(){
    
 }
 
+
 // purchase product
 function purchaseProduct(e){
     if(e.target.classList.contains('add-to-cart-btn')){

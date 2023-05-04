@@ -75,7 +75,7 @@ function eventListeners(){
 productList.addEventListener('click', purchaseProduct);
 
 // delete from cart
-cartList.addEventListener('click', deleteProduct);
+    cartList.addEventListener('click', deleteProduct);
 }
 
 // update cart info
@@ -113,6 +113,7 @@ function loadJSON(){
     })
    
 }
+
 
 // purchase product
 function purchaseProduct(e){
